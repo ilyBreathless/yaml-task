@@ -1,0 +1,57 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Project_radar/1.0.0": {
+        "dependencies": {
+          "SharpYaml": "1.8.0",
+          "YamlDotNet": "11.2.1"
+        },
+        "runtime": {
+          "Project_radar.dll": {}
+        }
+      },
+      "SharpYaml/1.8.0": {
+        "runtime": {
+          "lib/netstandard2.0/SharpYaml.dll": {
+            "assemblyVersion": "1.8.0.0",
+            "fileVersion": "1.8.0.0"
+          }
+        }
+      },
+      "YamlDotNet/11.2.1": {
+        "runtime": {
+          "lib/netstandard2.1/YamlDotNet.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.2.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Project_radar/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SharpYaml/1.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8qjMVGhMgppotKm3jrkM7RehX25o03oST4l07jwZyrN/qcM34PU23MhA8P2OZwn7FuCJbBrxF7/y34DGshXQvQ==",
+      "path": "sharpyaml/1.8.0",
+      "hashPath": "sharpyaml.1.8.0.nupkg.sha512"
+    },
+    "YamlDotNet/11.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tBt8K+korVfrjH9wyDEhiLKxbs8qoLCLIFwvYgkSUuMC9//w3z0cFQ8LQAI/5MCKq+BMil0cfRTRvPeE7eXhQw==",
+      "path": "yamldotnet/11.2.1",
+      "hashPath": "yamldotnet.11.2.1.nupkg.sha512"
+    }
+  }
+}
